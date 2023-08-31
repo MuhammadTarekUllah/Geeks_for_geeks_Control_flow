@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+
+  double number1,  number2,  number3;
+
+  printf("Enter three different numbers: ");
+  scanf("%lf %lf %lf", & number1, & number2, & number3);
+
+
+  if ( number1 >=  number2 &&  number1 >=  number3)
+    printf("%.2f is the largest number.",  number1);
+
