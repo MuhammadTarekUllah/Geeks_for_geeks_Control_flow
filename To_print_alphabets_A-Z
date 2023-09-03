@@ -4,8 +4,8 @@ int main()
 {
     char character;
 
-    printf("Alphabets from a - z are: \n");
-    for(character=''; character<='z'; character++)
+    printf("Alphabets from A - Z are: \n");
+    for(character='A'; character<='Z'; character++)
     {
         printf("%c\n", character);
     }
