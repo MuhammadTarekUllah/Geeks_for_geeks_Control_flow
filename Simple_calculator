@@ -1,0 +1,47 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    char character;
+    double number1, number2;
+    while (1) {
+        printf("Enter an operator (+, -, *, /), "
+               "if want to exit press x: ");
+        scanf(" %c", &character);
+
+
+        if (character == 'x')
+            exit(0);
+        printf("Enter two first and second operand: ");
+        scanf("%lf %lf", &number1, &number2);
+
+                      switch (character) {
+
+              case '+':
+            printf("%.1lf + %.1lf = %.1lf\n", number1, number2, number1 + number2);
+            break;
+
+
+        case '-':
+            printf("%.1lf - %.1lf = %.1lf\n", number1, number2, number1 - number2);
+            break;
+
+               case '*':
+            printf("%.1lf * %.1lf = %.1lf\n", number1, number2, number1 * number2);
+            break;
+
+
+        case '/':
+            printf("%.1lf / %.1lf = %.1lf\n", number1, number2, number1 / number2);
+            break;
+
+
+        default:
+            printf(
+                "Error! please write a valid operator\n");
+        }
+
+        printf("\n");
+    }
+}
