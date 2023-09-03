@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main(){
+    int input;
+    printf("Enter any number: ");
+    scanf("%d",&input);
+    int product=1;
+    for(int i=2;i<=input;i++)
+        product=product*i;
+    printf("Fcatorial of %d is: %d",input,product);
+}
