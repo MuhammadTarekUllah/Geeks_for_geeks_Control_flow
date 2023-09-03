@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main()
+{
+    char character;
+
+    printf("Alphabets from a - z are: \n");
+    for(character='a'; character<='z'; character++)
+    {
+        printf("%c\n", character);
+    }
+
+    return 0;
+}
