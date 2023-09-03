@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main(){
+    int input;
+    printf("Enter any natural number: ");
+    scanf("%d",&input);
+    int sum=0;
+    for(int i=1;i<=input;i++)
+        sum=sum+i;
+    printf("Sum of 1 to your given natural number is: %d",sum);
+    }
