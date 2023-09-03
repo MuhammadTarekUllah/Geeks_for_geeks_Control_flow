@@ -5,7 +5,7 @@ int main()
     char character;
 
     printf("Alphabets from a - z are: \n");
-    for(character='a'; character<='z'; character++)
+    for(character=''; character<='z'; character++)
     {
         printf("%c\n", character);
     }
